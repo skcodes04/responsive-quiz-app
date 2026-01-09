@@ -1,15 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    height: 100svh;
+    min-height: 100svh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #f4f4f4;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .quiz-app{
@@ -23,36 +24,61 @@ body{
     max-width: 400px;   
 }
 
-/* responsive on small screen*/
+.quiz-app h1{
+    margin-bottom: 20px;
+    color: #333;
+}   
+
+.quiz-app h2{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answer{
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.answer:hover{
+    background: #0056b3;
+}
+
+#next-question{
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    display: none;
+}
+
+#next-question:hover{
+    background: #1e7e34;
+}
+
+
+/* responsive on mobile screen*/
 @media (max-width: 480px){
     .quiz-app{
         padding: 20px;
     }
 
-}
-
-
-.quiz-app h1{
-margin-bottom: 20px;
-}
-.quiz-app h2{
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-button{
-    padding: 10px 20px;
-    background: #007bff;
-    border: none;
-    color: #fff;
-    width: 100%;
-    margin:5px 0;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-button:hover{
-    background: #0056b3;
 }
