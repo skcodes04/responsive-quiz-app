@@ -1,2 +1,18 @@
-# responsive-quiz-app
-A clean and fully responsive quiz app UI built using HTML CSS &amp; JAVASCRIPT
+# Responsive Quiz App 🎯
+
+🚀 Built a Full Responsive Quiz App using JavaScript!
+
+This project goes beyond UI it’s a fully functional quiz app built with:
+✔ HTML
+✔ CSS
+✔ Vanilla JavaScript
+
+✨ Features:
+• Dynamic questions
+• Score tracking
+• Responsive layout
+• Clean and simple UI
+
+🔗 Live Demo: [link]
+
+#javascript #webdevelopment #frontend #html #css #portfolio
