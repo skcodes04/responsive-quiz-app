@@ -13,6 +13,6 @@ This project goes beyond UI it’s a fully functional quiz app built with:
 • Responsive layout
 • Clean and simple UI
 
-🔗 Live Demo: [link]
+🔗 Live Demo: [https://skcodes04.github.io/responsive-quiz-app/]
 
 #javascript #webdevelopment #frontend #html #css #portfolio
